@@ -46,7 +46,7 @@ Le pipeline est constitué de trois principaux composants :
 
 1. Clonez ce dépôt :
    ```bash
-   git clone https://github.com/votre-utilisateur/ETL_kafka_hbase.git
+   git clone https://github.com/Aya1311/ETL_kafka_hbase.git
    ```
 2. Installez les dépendances Python :
    ```bash
@@ -86,9 +86,8 @@ Chaque article est stocké sous la forme d'une ligne dans HBase, avec les colonn
 
 ## Avertissements
 
-- Veillez à ne pas exposer les clés secrètes contenues dans `secret.txt`.
 - Si vous utilisez un environnement de production, configurez des paramètres de sécurité pour Kafka et HBase.
+### Auteur
+Projet réalisé par Aya Laadaili dans le cadre d'une architecture ETL pour stockage de flux temps réel.
 
-## License
-Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus d'informations.
 
